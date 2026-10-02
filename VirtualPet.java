@@ -28,7 +28,7 @@ public class VirtualPet{
     }
 
     public void comfort(){
-        face.setImage("Happy");
+        face.setImage("happy");
         face.setMessage("Thanks homie");
     }
 
@@ -43,17 +43,42 @@ public class VirtualPet{
     } 
     public void sleep(){
         face.setImage("asleep");
-        face.setMessage("sleeep");
+        face.setMessage("sleep");
         energy += 3;
     }
     public void execution(){
         face.setImage("dead");
         face.setMessage("imma slime you from beyond the grave");
     }
+    public void execution2(){
+        face.setImage("dead");
+        face.setMessage("baby died of obesity");
+    }
+    public void execution3(){
+        face.setImage("dead");
+        face.setMessage("yo ahh poisoned me");
+    }
+    public void execution4(){
+        face.setImage("dead");
+        face.setMessage("i died in mi sleep");
+    }
+    public void dead(){
+        face.setImage("pushingdaisies");
+    }
 
     public void tired(){
         face.setImage("tired");
         face.setMessage("im cooked");
+    }
+
+    public void hungry(){
+        face.setImage("hungry");
+        face.setMessage("feed");
+    }
+
+    public void survive(){
+        face.setImage("love");
+        face.setMessage("thanks for not killing me this time");
     }
 
     
